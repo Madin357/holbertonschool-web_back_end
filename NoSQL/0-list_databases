@@ -1,4 +1,2 @@
-// my comment
-#!/usr/bin/env bash
-# Script that lists all databases in MongoDB
-mongo --quiet --eval "db.adminCommand('listDatabases').databases.forEach(function(d){ print(d.name) })"
+// Show MongoDB
+show dbs
